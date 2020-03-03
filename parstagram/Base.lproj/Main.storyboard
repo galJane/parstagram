@@ -102,7 +102,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UgE-PV-q83">
-                                                    <rect key="frame" x="8" y="8" width="398" height="519"/>
+                                                    <rect key="frame" x="29" y="8" width="348" height="507"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="398" id="IsN-Hd-yWK"/>
                                                         <constraint firstAttribute="height" constant="526" id="ZDa-XO-MKM"/>
@@ -124,12 +124,16 @@
                                             <constraints>
                                                 <constraint firstItem="UgE-PV-q83" firstAttribute="top" secondItem="NnR-jE-cq2" secondAttribute="topMargin" constant="-3" id="0Fi-SN-vho"/>
                                                 <constraint firstItem="Ict-X5-KgE" firstAttribute="leading" secondItem="NnR-jE-cq2" secondAttribute="leadingMargin" constant="8" id="4Mb-Mr-WRR"/>
+                                                <constraint firstAttribute="trailing" secondItem="UgE-PV-q83" secondAttribute="trailing" constant="20" symbolic="YES" id="Ei4-l1-eY2"/>
                                                 <constraint firstItem="Ict-X5-KgE" firstAttribute="top" secondItem="UgE-PV-q83" secondAttribute="bottom" constant="1" id="IdN-tK-Kac"/>
                                                 <constraint firstItem="sal-cF-eji" firstAttribute="top" secondItem="UgE-PV-q83" secondAttribute="bottom" constant="7" id="OBa-Ge-reA"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="sal-cF-eji" secondAttribute="bottom" constant="38" id="QpD-xs-Jlr"/>
+                                                <constraint firstItem="UgE-PV-q83" firstAttribute="leading" secondItem="NnR-jE-cq2" secondAttribute="leading" constant="20" symbolic="YES" id="cee-ho-EHi"/>
+                                                <constraint firstItem="Ict-X5-KgE" firstAttribute="top" secondItem="UgE-PV-q83" secondAttribute="bottom" constant="8" symbolic="YES" id="ejs-7U-aq9"/>
                                                 <constraint firstItem="sal-cF-eji" firstAttribute="leading" secondItem="Ict-X5-KgE" secondAttribute="trailing" constant="8" id="fhh-cI-DjY"/>
                                                 <constraint firstItem="sal-cF-eji" firstAttribute="centerY" secondItem="Ict-X5-KgE" secondAttribute="centerY" id="g2V-S9-sJU"/>
                                                 <constraint firstItem="UgE-PV-q83" firstAttribute="centerX" secondItem="NnR-jE-cq2" secondAttribute="centerX" id="lZm-CT-urq"/>
+                                                <constraint firstItem="UgE-PV-q83" firstAttribute="top" secondItem="NnR-jE-cq2" secondAttribute="top" constant="20" symbolic="YES" id="yOu-Q1-pzq"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
